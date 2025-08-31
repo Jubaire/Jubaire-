@@ -1,0 +1,5 @@
+Checkpoint before assistant change: Update project configuration and dependencies for improved functionality
+
+This commit updates the `.replit` configuration to use a stable Nix channel and includes `gdb` as a package. It also sets specific `GUILD_ID` and `CHANNEL_ID` in `main.py` and adds `poetry.lock` for dependency management.
+
+Replit-Commit-Author: Assistant
