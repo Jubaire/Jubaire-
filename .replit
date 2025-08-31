@@ -1,0 +1,15 @@
+run = "pip install -r requirements.txt && python3 main.py"
+modules = ["python-3.10"]
+
+hidden = [".pythonlibs"]
+
+[nix]
+channel = "stable-25_05"
+packages = ["gdb"]
+
+[deployment]
+run = ["sh", "-c", "pip install -r requirements.txt && python3 main.py"]
+
+[[ports]]
+localPort = 8080
+externalPort = 80
